@@ -26,4 +26,3 @@ uvloop
 websockets
 passlib
 psycopg2-binary
-markupsafe==2.0.1
