@@ -12,12 +12,13 @@ python-dateutil
 PyYAML
 sanic==19.3.1
 jinja2
-git+https://github.com/gonrin/gatco.git
-git+https://github.com/gonrin/gatco_auth.git
-git+https://github.com/gonrin/gatco_jinja2.git
-git+https://github.com/gonrin/gatco_sqlalchemy.git
-git+https://github.com/gonrin/gatco_apimanager.git
-git+https://github.com/gonrin/gatco_acl.git
+git+https://github.com/DevOps-Success/gatco.git
+git+https://github.com/DevOps-Success/gatco_auth.git
+git+https://github.com/DevOps-Success/gatco_jinja2.git
+git+https://github.com/DevOps-Success/gatco_apimanager.git
+git+https://github.com/DevOps-Success/gatco_acl.git
+git+https://github.com/DevOps-Success/gatco_sqlalchemy.git
+git+https://github.com/DevOps-Success/gatco_restapi.git
 six
 SQLAlchemy
 ujson
@@ -25,3 +26,4 @@ uvloop
 websockets
 passlib
 psycopg2-binary
+markupsafe==2.0.1
