@@ -139,7 +139,7 @@ def create_admin(password='123456'):
         user_password=auth.encrypt_password(password, user_salt)
 
         #create user
-        user = User(user_name='admin', full_name="Admin User", email="admin@gonrin.com",\
+        user = User(user_name='admin', full_name="Admin User", email="vanvd@gmail.com",
             password=user_password, salt=user_salt)
         
         db.session.add(user)
